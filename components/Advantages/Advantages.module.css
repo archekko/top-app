@@ -1,0 +1,57 @@
+.advantage {
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas: 
+    "adv title"
+    "vline description";
+    gap: 20px;
+    justify-items: center;
+}
+.adv {
+    grid-area: adv;
+}
+.title {
+    grid-area: title;
+}
+.description {
+    grid-area: description;
+}
+.vline {
+    grid-area: vline;
+    width: 2px;
+    height: 100%;
+    background-color: #D2D2D2;
+}
+
+
+@media screen and (max-width: 640px) {
+    .advantage {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "adv"
+        "title"
+        "vline"
+        "description";
+    }
+    .vline {
+        display: none;
+    }
+    
+}
+
+/* .advantage {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 10px 40px;
+    margin-bottom: 30px;
+}
+
+.title {
+    align-self: center;
+    font-weight: bold;
+}
+
+.vline {
+    border-left:1px solid #D2D2D2;
+} */

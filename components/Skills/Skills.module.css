@@ -1,0 +1,9 @@
+.skill {
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 2 0 4 0; 
+    text-align: center;
+    color: var(--primary);
+    margin-right: 10px;
+}

@@ -1,0 +1,26 @@
+.filled {
+    fill: var(--primary);
+}
+
+.star {
+    margin-right: 5px;
+}
+
+.editable {
+    cursor: pointer;
+}
+
+.wrapper {
+    position: relative;
+}
+.error {
+    border: 1px solid var(--red);
+
+}
+
+.errorMess {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    color: var(--red);
+}
